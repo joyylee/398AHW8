@@ -1,1 +1,5 @@
-python3 rpn.py
+language: python
+rvm:
+- "2.7"
+script:
+- -m unitest
