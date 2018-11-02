@@ -7,3 +7,5 @@ install:
   - pip install termcolor
 script:
   - python3 test_rpn.py
+  - coverage test_rpn.py
+  - coverage report
