@@ -4,7 +4,7 @@ import operator
 import colored
 import readline
 import sys
-from termcolor import colored, cprint
+from termcolor import colored
 operators = {
     '+': operator.add,
     '-': operator.sub,

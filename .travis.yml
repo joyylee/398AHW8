@@ -4,5 +4,6 @@ python:
 install:
   - pip install coverage
   - pip install colored
+  - pip install termcolor
 script:
   - python3 test_rpn.py
